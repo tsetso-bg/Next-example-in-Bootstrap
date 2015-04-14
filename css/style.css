@@ -1,0 +1,455 @@
+	@font-face {
+    font-family: Brandon_bld;
+    src: url('../fonts/Brandon_bld.otf');
+}
+
+@font-face {
+    font-family: Brandon_blk;
+    src: url('../fonts/Brandon_blk.otf');
+}
+@font-face {
+    font-family: Brandon_light;
+    src: url('../fonts/Brandon_light.otf');
+}
+@font-face {
+    font-family: Brandon_med;
+    src: url('../fonts/Brandon_med.otf');
+}
+@font-face {
+    font-family: Brandon_reg;
+    src: url('../fonts/Brandon_reg.otf');
+}
+@font-face {
+    font-family: Brandon_thin;
+    src: url('../fonts/Brandon_thin.otf');
+}
+
+body{
+  font-family: Brandon_reg;
+}
+.header{
+  margin-top: 20px;
+}
+.navbar-inverse .navbar-nav > li > a{
+	padding-top: 0;
+  padding-bottom: 0;
+	font-family: Brandon_reg;
+	font-size: 10pt;
+	color: #000;
+	text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li{
+	border-right: 1px solid #000;
+}
+.navbar-nav li:last-child { 
+	border-right:0px; 
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #9d9d9d;
+}
+.navbar-inverse {
+  background-color: #fff;
+  }
+.right-bar {
+  padding: 0;
+}
+.right-bar ul{
+	list-style-type: none;
+}
+.right-bar ul li{
+	float: left;
+	margin: 10px auto;
+	padding:0 10px;
+}
+.right-bar span{
+  font-size: 15px;
+}
+.right-bar a{
+	color: #000;
+}
+.navbar-brand img{
+	margin-left: 15px;
+}
+.right-bar a:hover{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.navbar-brand img:hover, .right-bar img:hover{
+	opacity: 0.6;
+}
+.language{
+	color: #d3d3d3 !important;
+}
+.social{
+  margin-top: -10px;
+  padding: 0;
+  float: right;
+  margin-right: 30px;
+}
+.grid{
+	margin: 50px 0 0 0 ;
+}
+.grid .col-md-3, .grid .col-md-6{
+  padding: 0;
+}
+.grid img{
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+.tex-info, .tex-break-shop{
+  top:10%;
+  height: 200px;
+  text-align: center;
+  font-size: 24pt;
+  font-family: Brandon_light ;
+  position: relative;
+}
+.tex-info span{
+  font-family: Brandon_med ;
+}  
+.tex-info>div, .tex-break-shop>div{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+.tex-break-shop>div {
+  left: 31%;
+}                
+.subsctiption{
+height: 825px;
+  background-image: url("../img/subs.jpg");
+}
+.sub-right{
+  font-size: 31pt;
+  font-family: Brandon_reg ;
+  text-align: center;
+  top:35%;
+}
+.sub-right span{
+  font-size: 31pt;
+  font-family: Brandon_bld ;
+}
+.smol{
+  font-size: 19pt;
+  font-family: Brandon_med ;
+  text-align: center;
+}
+.pants{
+  background-color: #000;
+  height: 100%;
+}
+.pants p{
+  color: #fff;
+  top: 50%;
+  text-align: center;
+  z-index: 1000;
+  left: 30%;
+}
+.pants img{
+  z-index: -1000;
+  visibility: hidden;
+}
+
+.imgWrap {
+  position: relative;
+}
+
+.imgDescription {
+  position: absolute;
+  background: rgba(30, 30, 30, 1);
+  color: #fff;
+  padding-top: 35%;
+  padding-left: 20px;
+  padding-right: 20px;
+ /* visibility: hidden;*/
+  opacity: 0;
+  font-size: 20pt;
+  font-family: Brandon_reg ;
+  text-align: center;
+}
+.imgDescription a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15pt;
+  font-family: Brandon_reg ;
+}
+h1{
+  font-size: 20pt;
+}
+.first{
+  top: 0;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+.second{
+  background: rgba(30, 30, 30, 0.7);
+  padding-top: 21%;
+  padding-left: 150px;
+  padding-right: 150px
+}
+.second span{
+  font-family: Brandon_bld ;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+.enter{
+	margin-top: 40px; 
+}
+.enter>a {
+	border: 1px solid #000;
+	font-family: Brandon_med ;
+	font-size: 14pt ;
+	color: #000;
+	padding: 20px 35px;
+  transition: 1s;
+ }
+.enter>a:hover {
+  text-decoration: none;
+  transition: 1s;
+  color: #fff;
+  background-color: #000;
+}
+
+.product1, .product2, .product3{
+	text-align: center;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+.product1 img, .product2 img, .product3 img{
+	width: 100%;
+  margin-bottom: 60px;
+}
+.product1 p, .product2 p, .product3 p{
+  margin: 0;
+  padding: 0;
+	font-family: Brandon_light ;
+	font-size: 20pt ;
+	color: #FFF;
+
+}
+.price{
+	font-family:"Brandon_med " !important;
+}
+.product1{
+	background-color: #303030;
+}
+.product2{
+	background-color: #dcdcdc;
+}
+.product3{
+	background-color: #49575b;
+}
+.view-more{
+  text-align: center;
+}
+.view-more a{
+  color: #fff;
+  padding: 25px 50px;
+  background-color: #000;
+  font-family: Brandon_reg ;
+  font-size: 16pt ;
+  transition: 0.7s;
+}
+.view-more a:hover{
+  color: #000;
+  padding: 25px 50px;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #000;
+  transition: 0.7s;
+}
+.view-more p{
+  margin: 70px 0 70px  0 ;
+}
+.featured{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Brandon_reg ;
+  font-size: 18pt ;
+  background-color: #303030;
+  color: #fff;
+  height: 300px;
+}
+.featured p{
+  margin-top: 72px;
+  margin-bottom: 30px;
+}
+
+.footer{
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+
+.footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 106px;
+}
+.footer li{
+  font-family: Brandon_reg ;
+  font-size: 11pt ;
+  margin-left: 100px;
+  text-decoration: none;
+}
+.footer a{
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer .social{
+  margin-right: 100px;
+  margin-top: 140px;
+}
+.footer .social li{
+  float: left;
+  margin-left: 20px;
+  font-size: 25pt !important;
+}
+
+.firms{
+  text-align: center;
+}
+.firms a{
+  margin: 15px;
+  padding: 0;
+  transition: 0.5s;
+}
+.firms a:hover{
+  opacity: 0.6;
+transition: 0.5s;
+}
+.footer .fa{
+  opacity: 1;
+  transition: 0.5s;
+}
+.footer .fa:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+/*responsive design*/
+
+@media (min-width: 768px){
+  .navbar-nav{
+      margin: 10px auto;
+      display: table;
+      table-layout: fixed;
+      float:none;
+  }
+}
+@media (max-width: 1500px){
+.social {
+  margin-right: 85px;
+  }
+  .tex-info{
+    font-size: 20pt;
+  }
+.tex-info>div{
+  left: 7%;
+  }
+  .tex-break-shop>div {
+  left: 21%;
+  }
+  .imgDescription {
+    font-size: 15pt;
+  }
+  .second{
+  padding-top: 15%;
+  }
+  .product1, .product2, .product3{
+  height: 500px;
+  }
+  .product1 p, .product2 p, .product3 p{
+     font-size: 16pt ;
+  }
+  .product1 img, .product2 img, .product3 img{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px){
+  .right-bar {
+    margin-top: -30px;
+  }
+  .navbar > .container .navbar-brand{
+    margin-top: -30px;
+  }
+  .social{
+    float: none;
+  }
+  .tex-break-shop>div {
+    left: 15%;
+  }
+  .tex-info>div {
+    left: 0%;
+  }
+  .product1, .product2, .product3{
+	  height: 1100px;
+  }
+  .product1 p, .product2 p, .product3 p{
+    font-size: 20pt ;
+  }
+  .product1 img, .product2 img, .product3 img{
+    margin-bottom: 40px;
+  }
+  .footer{
+    margin-top: -10px;
+    text-align: center;
+    height: 150px;
+  }
+  .footer .social {
+    margin-right: 42%;
+    margin-top: 0;
+  }
+  .footer li{
+    margin-left: 0;
+  }
+  .footer ul{
+    margin-top: 10px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px){
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-toggle{
+    background-color: #101010;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    text-align: center;
+  }
+
+  .navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #454545;
+  }
+  .right-bar{
+    margin: 0 ;
+    left: 25%;
+  }
+  .grid-right{
+    display: none;
+  }
+  .tex-info, .tex-break-shop{
+    font-size: 18pt;
+  }
+     .imgDescription {
+    padding-top: 45%;
+    font-size: 22pt;
+  }
+   .second{
+    padding-top: 22%;
+  }
+  .product1, .product2, .product3{
+    height: 1000px;
+  }
+}
+
+
